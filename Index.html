@@ -6,17 +6,16 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <nav>
-        <li><a href="#"></a>Home</li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#Skills">Skills</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="#hobbies">Hobbies</a></li>
-        <li><a href="#">Contacts</a></li>
+<header class="header">
+    <nav class="navbar">
+        <a href="#about">About</a>
+        <a href="#Skills">Skills</a>
+        <a href="#Portfolio">Portfolio</a>
+        <a href="#hobbies">Hobbies</a>
+        <a href="#contacts">Contacts</a>
    </nav>
     <h1>Sergey Buinichenko</h1>
-    <p>Front-end developer<br>junior, 35years old</p>
+    <p>Front-end developer junior, 35years old</p>
 </header>
 <section id="about">
     <h1>About me</h1>
@@ -27,9 +26,9 @@
  </section>
  <section id="Skills">
      <h1>Skills</h1>
-     <div class="skills-item">
-        <img src="images/html.svg" alt="html">
-        <img src="images/css3.png" alt="html">
+     <div class="skills">
+        <img src="images/3css.png" alt="html">
+        <img src="images/HTML5.svg" alt="html">
         <img src="images/figma.svg" alt="figma"> 
     </div>  
 </section>
@@ -39,24 +38,28 @@
 </section>
 <section id="hobbies">
     <h2>Hobbies</h2>
-    <div class="hobbies-item">
+    <div class="hobbies">
         <img src="images/airsoft.png" alt="airsoft">
-        <img src="images/KIF.jpg" alt="KIF">
+        <img src="images/kif.png" alt="KIF">
     </div>
 </section>
 <section id="contacts">
     <h1>Contacts</h1>
-    <p>You can contact me at  <br>
-        <button><a href="mailto:example@mail.com">Mail</a></button>
-       <button><a href="tel:+1234567890">Telephone</a></button> 
-       <p>Like me on</p>
-    <ul class="contact">
-        <li><a href="https://www.facebook.com" title="Официальная страница Facebook" target="_blank" rel="noopener"><img src="images/facebook.svg" alt="facebook"></a></li>
-        <li><a href="https://www.instagram.com/" title="Официальная страница Instagram " target="_blank" rel="noopener"><img src="images/instagram.svg" alt="instagram"></a></li>
-        <li><a href="https://twitter.com" title="Официальная страница Twitter" target="_blank" rel="noopener"><img src="images/twitter.svg" alt="twitter"></a></li>
-        <li><a href="https://github.com/" title="Официальная страница Github" target="_blank" rel="noopener"><img src="images/github.svg" alt="github"></a></li>
-    </ul>
-    <span><p>Copyright 2021</p><p>Sergey Buinichenko</p></span>
+    <p>You can contact me at </p>
+    <div class="contact">
+        <button class="btn"><a href="mailto:example@mail.com">Mail</a></button>
+       <button class="btn"><a href="tel:+1234567890">Telephone</a></button> 
+    </div>
 </section>
+<footer class="footer">
+    <p>Like me on</p>
+    
+        <a href="https://www.facebook.com" title="Официальная страница Facebook" target="_blank" rel="noopener"><img src="images/facebook.svg" alt="facebook"></a>
+        <a href="https://www.instagram.com/" title="Официальная страница Instagram " target="_blank" rel="noopener"><img src="images/instagram.svg" alt="instagram"></a>
+        <a href="https://twitter.com" title="Официальная страница Twitter" target="_blank" rel="noopener"><img src="images/twitter.svg" alt="twitter"></a>
+        <a href="https://github.com/" title="Официальная страница Github" target="_blank" rel="noopener"><img src="images/github.svg" alt="github"></a>
+   
+    <p>Copyright 2021</p><p>Sergey Buinichenko</p>
+</footer>
 </body>
 </html>

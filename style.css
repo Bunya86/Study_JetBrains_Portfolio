@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0 auto;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*background: linear-gradient(rgb(176, 222, 248), #a1c7ff);*/
+    background-image: url(/images/BGIm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#header, #about,#Skills, #Portfolio, #hobbies,#contacts {
+        border-bottom: 3px solid hsl(214, 94%, 79%);
+        width: 100%;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 3px solid hsl(214, 94%, 81%);
+    width: 100%;
+    background-color: rgb(19, 128, 218);
+}    
+.navbar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 20px;
+    width: 100%;
+}
+    
+h1,h2,h3,p {
+    margin: 20px;
+    text-align: center;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+ li{
+    list-style: none;
+ }
+ 
+#about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+    
+}
+#Portfolio {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+.hobbies {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+#contacts {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 20px;
+}
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.btn {
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    border-radius: 20px;
+    border: 3px solid black;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    height: 100px;
+    background-color: rgb(19, 128, 218);
+}
+.footer img {
+    width: 40px;
+    height: 40px;
+}
