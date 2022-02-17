@@ -1,16 +1,21 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>Sergey Buinichenko, Front-end developer</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+<div class="container">
 <header class="header">
     <nav class="navbar">
+        <div class="hamburger">
+            <span></span>
+        </div>
         <a class="nav" href="#about">About</a>
         <a class="nav" href="#Skills">Skills</a>
-        <a class="nav" href="#Portfolio">Portfolio</a>
+        <a class="nav" href="#portfolio">Portfolio</a>
         <a class="nav" href="#hobbies">Hobbies</a>
         <a class="nav" href="#contacts">Contacts</a>
    </nav>
@@ -22,7 +27,7 @@
     <img src="images/person.jpg" alt="person">
     <p>Hi, I'm Sergey Buinichenko. Junior front-end developer</p>
     <p>I'm interested in front-end and everything connected with it.</p>
-     <p>I'm studying at courses "front-end develorment" in IT-Academy online.</p>
+     <p>I'm studying at courses "front-end development" in IT-Academy online.</p>
  </section>
  <section id="Skills">
      <h1>Skills</h1>
@@ -32,15 +37,52 @@
         <img src="images/figma.svg" alt="figma"> 
     </div>  
 </section>
-<section id="Portfolio">
+<section id="portfolio">
     <h1>Portfolio</h1>
-    <img src="images/project1.png" alt="project1">
+    <div class="portfolio">
+        <img src="images/My_Progect.png" alt="project">
+        <div id="flash">
+        <button id="open-window" class="open-window"><a href="#portfolio">More information</a></button>
+        </div>
+       <div class="window popup">
+           <div>
+               <h2>More information</h2>
+               <p>This site is on Http://www.My site.com</p>
+               <button id="close-window" class="open-window">Close</button>
+           </div>
+       </div>
+    </div>
 </section>
 <section id="hobbies">
     <h2>Hobbies</h2>
     <div class="hobbies">
-        <img src="images/airsoft.png" alt="airsoft">
-        <img src="images/kif.png" alt="KIF">
+        <div class="hobbie">
+            <img src="images/airsoft.png" alt="airsoft">
+            <div id="flash1">
+                <button id="open-window1" class="open-window1"><a href="#hobbies">More information</a></button>
+            </div>
+            <div class="window1 popup1">
+                <div>
+                    <h2>More information</h2>
+                    <p>Российский аналог командной игры, более известной как airsoft (англ. air — воздух, англ. soft — мягкий) с использованием «мягкой пневматики» (разрешённая дульная энергия в России не более 3 Дж)</p>
+                    <button id="close-window1" class="open-window1">Close</button>
+                </div>
+            </div>
+        </div>
+        <div class="hobbie">
+            <img src="images/kif.png" alt="KIF">
+            <div id="flash2">
+                <button id="open-window2" class="open-window2"><a href="#hobbies">More information</a></button>
+            </div>
+            <div class="window2 popup2">
+                <div>
+                    <h2>More information</h2>
+                    <p>Современное полноконтактное боевое единоборство, созданное в 1981 году мастером восточных единоборств Адзумой Такаси на основе его знаний о карате кёкусинкай, борьбе дзюдо, тайском боксе. http://www.kudo.ru</p>
+                    <button id="close-window2" class="open-window2">Close</button>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
 <section id="contacts">
@@ -61,5 +103,7 @@
    
     <p>Copyright 2021</p><p>Sergey Buinichenko</p>
 </footer>
+<script async src="main.js"></script>
+</div>
 </body>
 </html>
