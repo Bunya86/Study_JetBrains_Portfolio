@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Sergey Buinichenko, Front-end developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <nav class="navbar">
+        <a class="nav" href="#about">About</a>
+        <a class="nav" href="#Skills">Skills</a>
+        <a class="nav" href="#Portfolio">Portfolio</a>
+        <a class="nav" href="#hobbies">Hobbies</a>
+        <a class="nav" href="#contacts">Contacts</a>
+   </nav>
+    <h1>Sergey Buinichenko</h1>
+    <p>Front-end developer junior, 35years old</p>
+</header>
+<section id="about">
+    <h1>About me</h1>
+    <img src="images/person.jpg" alt="person">
+    <p>Hi, I'm Sergey Buinichenko. Junior front-end developer</p>
+    <p>I'm interested in front-end and everything connected with it.</p>
+     <p>I'm studying at courses "front-end develorment" in IT-Academy online.</p>
+ </section>
+ <section id="Skills">
+     <h1>Skills</h1>
+     <div class="skills">
+        <img src="images/3css.png" alt="html">
+        <img src="images/HTML5.svg" alt="html">
+        <img src="images/figma.svg" alt="figma"> 
+    </div>  
+</section>
+<section id="portfolio">
+    <h1>Portfolio</h1>
+    <div class="window"><img src="images/project1.png" alt="project1">
+        <button  class="open-window btn" elem.onclick="null"><a href="#iw-modal">Открыть</a></button>
+        <!---Разметка для модального окна---->	
+            <div id="iw-modal" class="iw-modal">
+                <div class="iw-modal-wrapper">
+                        <div class="iw-CSS-modal-inner">
+                            <div class="iw-modal-header">
+                <h3 class="iw-modal-title">Заголовок</h3>
+                <a href="#close" title="Закрыть" class="iw-close">×</a>
+                </div>
+                <div class="iw-modal-text">    
+                <p>Здесь Вы можете разместить свой текст, изображения или формы обратной связи</p>
+                </div>
+                </div>
+                </div>	
+                </div>
+                <!---end.Разметка для модального окна---->	   
+    </div>
+    
+</section>
+<section id="hobbies">
+    <h2>Hobbies</h2>
+    <div class="hobbies">
+        <img src="images/Airsoft.png" alt="airsoft">
+        <img src="images/kif.png" alt="KIF">
+    </div>
+</section>
+<section id="contacts">
+    <h1>Contacts</h1>
+    <p>You can contact me at </p>
+    <div class="contact">
+        <button class="btn"><a href="mailto:example@mail.com">Mail</a></button>
+       <button class="btn"><a href="tel:+1234567890">Telephone</a></button> 
+    </div>
+</section>
+<footer class="footer">
+    <p>Like me on</p>
+    
+        <a href="https://www.facebook.com" title="Официальная страница Facebook" target="_blank" rel="noopener"><img src="images/facebook.svg" alt="facebook"></a>
+        <a href="https://www.instagram.com/" title="Официальная страница Instagram " target="_blank" rel="noopener"><img src="images/instagram.svg" alt="instagram"></a>
+        <a href="https://twitter.com" title="Официальная страница Twitter" target="_blank" rel="noopener"><img src="images/twitter.svg" alt="twitter"></a>
+        <a href="https://github.com/" title="Официальная страница Github" target="_blank" rel="noopener"><img src="images/github.svg" alt="github"></a>
+   
+    <p>Copyright 2021</p><p>Sergey Buinichenko</p>
+</footer>
+</body>
+</html>
